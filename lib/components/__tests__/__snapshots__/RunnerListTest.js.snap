@@ -5,13 +5,14 @@ exports[`RunnerList renders correctly 1`] = `
   <div
     style={
       Object {
-        "backgroundColor": "#ccc",
+        "backgroundColor": "#ccc000",
         "border": "1px",
         "borderBottomColor": "#aaa",
         "borderBottomStyle": "solid",
         "borderBottomWidth": 1,
         "marginBottom": 10,
         "paddingBottom": 5,
+        "width": "150px",
       }
     }
   >
@@ -55,13 +56,14 @@ exports[`RunnerList renders correctly 1`] = `
   <div
     style={
       Object {
-        "backgroundColor": "#ccc",
+        "backgroundColor": "#ccc000",
         "border": "1px",
         "borderBottomColor": "#aaa",
         "borderBottomStyle": "solid",
         "borderBottomWidth": 1,
         "marginBottom": 10,
         "paddingBottom": 5,
+        "width": "150px",
       }
     }
   >
