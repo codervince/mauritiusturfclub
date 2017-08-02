@@ -1,0 +1,36 @@
+
+.header-img {
+  position: relative;
+  background: url('https://image.ibb.co/haP17k/umbrella.jpg') center center no-repeat / 100% 100%;
+  height: 300px;
+  width: 300px;
+}
+
+.ai {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+    color: white;
+  display:inline;
+}
+.ai span {
+
+  background: dodgerblue;
+
+}
+
+.full-stack {
+  padding: 0 1em 0 0;
+    background: dodgerblue;
+    color: white;
+display: inline;
+}
+
+.header-img-ux {
+  position: relative;
+  background: url('https://www.ics.uci.edu/~kobsa/courses/ICS104/course-notes/gestalt-continuity2.png') center center no-repeat / 100% 100%;
+  height: 300px;
+  width: 300px;
+}

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RunnerList renders correctly 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#ccc",
+        "border": "1px",
+        "borderBottomColor": "#aaa",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "marginBottom": 10,
+        "paddingBottom": 5,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+       
+       
+    </div>
+    <div
+      style={undefined}
+    >
+       ran 
+    </div>
+    <div>
+      No: 
+    </div>
+    <div />
+    <div />
+    <div />
+    <div>
+      Jockey carries: 
+    </div>
+    <div>
+      Horse carries: 
+    </div>
+    <div>
+      Stall: 
+    </div>
+    <div>
+      Prev: 
+    </div>
+    <div>
+      Finished: 
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "backgroundColor": "#ccc",
+        "border": "1px",
+        "borderBottomColor": "#aaa",
+        "borderBottomStyle": "solid",
+        "borderBottomWidth": 1,
+        "marginBottom": 10,
+        "paddingBottom": 5,
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "fontWeight": "bold",
+        }
+      }
+    >
+       
+       
+    </div>
+    <div
+      style={undefined}
+    >
+       ran 
+    </div>
+    <div>
+      No: 
+    </div>
+    <div />
+    <div />
+    <div />
+    <div>
+      Jockey carries: 
+    </div>
+    <div>
+      Horse carries: 
+    </div>
+    <div>
+      Stall: 
+    </div>
+    <div>
+      Prev: 
+    </div>
+    <div>
+      Finished: 
+    </div>
+  </div>
+</div>
+`;
