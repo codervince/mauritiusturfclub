@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import DataApi from 'DataApi';
 import App from 'components/App';
 
-const initialData = {
-  runners : {}
-};
+const store = new DataApi(window.initialData);
+
 
 ReactDOM.render(
-  <App initialData={initialData} />,
+  <App store={store} />,
   document.getElementById('root')
 );

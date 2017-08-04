@@ -16,3 +16,8 @@ Search will be by ARRAY of horseNames (unique IDs) and patterns
 * Market data is missing for this jurisdiction.
 * GraphQL integration
 * API to get current and historical data
+
+
+# Issues
+* initial page load is very slow- too much data?
+*

@@ -1,108 +1,164 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`RunnerList renders correctly 1`] = `
-<div>
-  <div
-    style={
-      Object {
-        "backgroundColor": "#ccc000",
-        "border": "1px",
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 5,
-        "width": "150px",
-      }
-    }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <Runner
+        runner={
+            Object {
+                "uniqueID": "a",
+              }
         }
-      }
-    >
-       
-       
-    </div>
-    <div
-      style={undefined}
-    >
-       ran 
-    </div>
-    <div>
-      No: 
-    </div>
-    <div />
-    <div />
-    <div />
-    <div>
-      Jockey carries: 
-    </div>
-    <div>
-      Horse carries: 
-    </div>
-    <div>
-      Stall: 
-    </div>
-    <div>
-      Prev: 
-    </div>
-    <div>
-      Finished: 
-    </div>
-  </div>
-  <div
-    style={
-      Object {
-        "backgroundColor": "#ccc000",
-        "border": "1px",
-        "borderBottomColor": "#aaa",
-        "borderBottomStyle": "solid",
-        "borderBottomWidth": 1,
-        "marginBottom": 10,
-        "paddingBottom": 5,
-        "width": "150px",
-      }
-    }
-  >
-    <div
-      style={
-        Object {
-          "fontWeight": "bold",
+        store={undefined}
+    />
+    <Runner
+        runner={
+            Object {
+                "uniqueID": "b",
+              }
         }
-      }
-    >
-       
-       
-    </div>
-    <div
-      style={undefined}
-    >
-       ran 
-    </div>
+        store={undefined}
+    />
+</div>,
+  "nodes": Array [
     <div>
-      No: 
-    </div>
-    <div />
-    <div />
-    <div />
-    <div>
-      Jockey carries: 
-    </div>
-    <div>
-      Horse carries: 
-    </div>
-    <div>
-      Stall: 
-    </div>
-    <div>
-      Prev: 
-    </div>
-    <div>
-      Finished: 
-    </div>
-  </div>
-</div>
+      <Runner
+            runner={
+                  Object {
+                        "uniqueID": "a",
+                      }
+            }
+            store={undefined}
+      />
+      <Runner
+            runner={
+                  Object {
+                        "uniqueID": "b",
+                      }
+            }
+            store={undefined}
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <RunnerList
+        runners={
+                Object {
+                        "a": Object {
+                          "uniqueID": "a",
+                        },
+                        "b": Object {
+                          "uniqueID": "b",
+                        },
+                      }
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "runners": Object {
+            "a": Object {
+              "uniqueID": "a",
+            },
+            "b": Object {
+              "uniqueID": "b",
+            },
+          },
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <Runner
+                    runner={
+                              Object {
+                                        "uniqueID": "a",
+                                      }
+                    }
+                    store={undefined}
+          />
+          <Runner
+                    runner={
+                              Object {
+                                        "uniqueID": "b",
+                                      }
+                    }
+                    store={undefined}
+          />
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <Runner
+                    runner={
+                              Object {
+                                        "uniqueID": "a",
+                                      }
+                    }
+                    store={undefined}
+          />
+          <Runner
+                    runner={
+                              Object {
+                                        "uniqueID": "b",
+                                      }
+                    }
+                    store={undefined}
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <RunnerList
+    runners={
+        Object {
+            "a": Object {
+              "uniqueID": "a",
+            },
+            "b": Object {
+              "uniqueID": "b",
+            },
+          }
+    }
+/>,
+}
 `;
